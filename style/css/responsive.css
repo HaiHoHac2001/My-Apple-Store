@@ -1,0 +1,224 @@
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    .header__list {
+        display: none;
+    }
+
+    .header__logo--tital {
+        width: 130px;
+    }
+
+    .fas.fa-bars{
+        display: block;
+    }
+
+    .contact {
+        padding: 50px;
+    }
+
+    .container__contact {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .container__contact .contactInfo {
+        margin-bottom: 40px;
+    }
+
+    .container__contact .contactInfo,
+    .contactForm {
+        width: 100%;
+    }
+    
+
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .icon-search.fas.fa-search{
+        right: 82px;
+    }
+
+    .fas.fa-shopping-cart{
+        left: -21px;
+    }
+
+    .header__nav--list-item {
+        justify-content: space-between;
+    }
+
+    .heading__title-des-sanpham {
+        font-size: 25px;
+    }
+
+    .heading__title-des-khuyenmai {
+        font-size: 25px;
+    }
+
+    .heading__title-des-sanphammoi {
+        font-size: 25px;
+    }
+
+    .heading__title-des-contact {
+        font-size: 25px;
+    }
+
+    .slider__title {
+        left: 72px;
+        width: 50%;
+    }
+
+    .slider__name--des {
+        font-size: 20px;
+    }
+
+    .slider__name-sub {
+        font-size: 20px;
+    }
+
+    .slider__name--price {
+        font-size: 16px;
+    }
+
+    .baner_body {
+        display: none;
+    }
+
+    .baner-tablet_body {
+        display: block;
+    }
+
+    .heading__text {
+        padding-left: 32px;
+    }
+
+    span.sub-price {
+        font-size: 23px;
+    }
+
+    span.heading__title-des {
+        font-size: 28px;
+    }
+
+    .header__nav--list-item-link {
+        font-size: 1.45rem;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .header__search {
+        display: none;
+    }
+
+    
+
+    .header__nav{
+        display: block;
+        height: 35px;
+    }
+
+    .header__nav--list-item-link {
+        font-size: 1.25rem;
+        padding: 0 12px;
+    }
+
+    .header__cart {
+        display: none;
+    }
+
+    .header__list-mobile {
+        width: 200px;
+    }
+
+    .mobile__category {
+        display: block;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .home-produce {
+        padding-top: 40px;
+    }
+
+
+    .heading__title {
+        font-size: 12px;
+        margin: 20px;
+    }
+
+    .heading__text {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    .grid.wide.home-produce {
+        padding: 40px 16px;
+    }
+
+    .baner-tablet_body{
+        display: none;
+    }
+
+    .baner_body {
+        display: none;
+    }
+    .store__address--heading {
+        display: none;
+    }
+
+    .store__values--itech {
+        display: none;
+    }
+
+    .col1__address-img {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .c1-address_title1 {
+        display: block;
+    }
+
+    .col1__address-img--mobile {
+        display: block;
+    }
+
+    .c1-address_title1--mobile {
+        display: block;
+    }
+    .store__values--itech-mobile{
+        display: block;
+    }
+    .sanphammoi--heading {
+        display: none;
+    }
+    .sanphammoi--heading-mobile {
+        display: block;
+    }
+
+    .heading__title-khuyenmai {
+        margin: 140px 20px 24px 20px;
+    }
+
+    .heading__title-des-khuyenmai {
+        font-size: 12px;
+    }
+
+    .heading__title-sanphammoi {
+        margin: 140px 20px 24px 20px;
+        font-size: 12px;
+    }
+
+    #contact {
+        margin: 140px 20px 24px 20px;;
+        font-size: 12px;
+    }
+
+    .contactForm h2 {
+        font-size: 2.5rem;
+    }
+}
